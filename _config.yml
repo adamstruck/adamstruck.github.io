@@ -38,19 +38,18 @@ navbar-links:
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Adam Struck
-  email: "adamjstruck@gmail.com"
+  email: adamjstruck@gmail.com
   facebook: Adam.J.Struck
   github: adamstruck
   linkedin: in/adamjstruck
  
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
+  email: true
   facebook: true
-  email: false
-  twitter: false
-  github: false
+  github: true
   linkedin: true
+  rss: false
   stackoverflow: false
 
 # How to display the link to the website in the footer
@@ -60,7 +59,7 @@ footer-links-active:
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "adamstruck"
+# disqus: "adamstruck"
 
 # Fill in your Google Analytics ID to track your website using GA
 # google_analytics: ""

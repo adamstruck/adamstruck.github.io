@@ -39,9 +39,9 @@ navbar-links:
 author:
   name: Adam Struck
   email: "adamjstruck@gmail.com"
-  facebook: "Adam.J.Struck"
+  facebook: Adam.J.Struck
   github: adamstruck
-  linkedin: "in/adamjstruck"
+  linkedin: in/adamjstruck
  
 # Select which links to show in the footer
 footer-links-active:

@@ -47,9 +47,9 @@ author:
 footer-links-active:
   rss: false
   facebook: true
-  email: true
+  email: false
   twitter: false
-  github: true
+  github: false
   linkedin: true
   stackoverflow: false
 

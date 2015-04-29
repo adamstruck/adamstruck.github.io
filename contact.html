@@ -21,16 +21,34 @@ css: "/css/pixyll.css"
   <div class="post p2 p-responsive wrap" role="main">
     <div class="measure">
       <div class="post">
-	<header class="post-header">
-	  <h1 class="h2">Say Hello</h1>
-	</header>
 	<article class="post-content">
 	  <div class="py2">
+	    	
+	    <form action="https://formspree.io/adamjstruck@gmail.com" method="POST" class="form-stacked form-light">
+	      <div class="row 50%">
+		<div class="6u"><input type="text" name="name" placeholder="Name" required="required"/></div>
+		<div class="6u"><input type="email" name="_replyto" placeholder="Email" required="required"/></div>
+	      </div>
+	      <div class="row 50%">
+		<div class="12u">
+		  <textarea name="message" placeholder="Message" required="required"></textarea>
+		</div>
+	      </div>
+	      <div class="row">
+		<div class="12u">
+		  <input type="submit" clas="button button-blue button-big mobile-block" name="submit" value="Send Message" />
+		</div>
+	      </div>
+	    </form>
+
+	    <!--
 	    <form action="https://formspree.io/adamjstruck@gmail.com" method="POST" class="form-stacked form-light">
 	      <input type="text" name="email" class="input mobile-block" placeholder="Email Address">
 	      <textarea type="text" name="content" class="input mobile-block" rows="5" placeholder="What would you like to say?"></textarea>
-	      <input type="submit" class="button button-blue button-big mobile-block" value="Say Hello">
+	      <input type="submit" class="button button-blue button-big mobile-block" value="Submit">
 	    </form>
+	    -->
+
 	  </div>
 	</article>
       </div>
